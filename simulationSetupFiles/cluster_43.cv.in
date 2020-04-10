@@ -1,0 +1,116 @@
+cv_file cell 43 collective variable restraints
+&colvar !Cluster Pair: 43 - 96
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = 2.956902, 3.756312, -1.702519, 3.683337, -4.767040,
+   anchor_position = 213.338209, 218.338209, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Cluster Pair: 43 - 0
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = -0.770014, -1.507133, 0.510141, 3.977533, -3.953584,
+   anchor_position = -118.804420, -113.804420, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Cluster Pair: 43 - 110
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = -0.811404, -0.469931, 0.246756, 0.114813, 0.342763,
+   anchor_position = -61.145698, -56.145698, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Cluster Pair: 43 - 239
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = 2.029527, 1.325631, -0.569624, -4.517571, 3.496937,
+   anchor_position = 88.889306, 93.889306, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Cluster Pair: 43 - 18
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = 1.208980, 1.618211, -0.621659, -2.869416, 2.530988,
+   anchor_position = 82.837433, 87.837433, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Cluster Pair: 43 - 210
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = 0.428072, 0.375245, -0.266507, 3.862570, -4.133136,
+   anchor_position = 5.431855, 10.431855, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Cluster Pair: 43 - 121
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = 4.810783, -1.361328, -0.043030, -0.070557, -3.986718,
+   anchor_position = 140.404926, 145.404926, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Cluster Pair: 43 - 92
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = 6.853142, 4.009561, -2.078695, -1.795249, -2.041682,
+   anchor_position = 384.811131, 389.811131, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Cluster Pair: 43 - 62
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = -0.588698, -3.032161, 1.248976, -5.835923, 5.408454,
+   anchor_position = -225.531443, -220.531443, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Cluster Pair: 43 - 127
+   cv_type = 'LCOD'
+   cv_i = 15942, 166136, 19546, 166136, 22493, 166136, 39396, 166136, 62839, 166136,
+   cv_r = 5.534549, 9.329936, -3.741378, -3.323817, 2.217133,
+   anchor_position = 426.165909, 431.165909, 999999, 999999,
+   anchor_strength = 0.0, 100.0
+/
+
+&colvar !Monitoring for: D_958 (atoms 15942 - 166136)
+   cv_type = 'DISTANCE',
+   cv_i = 15942, 166136,
+   anchor_postion = 0, 1, 2, 3,
+   anchor_strength = 0, 0
+/
+
+&colvar !Monitoring for: D_1178 (atoms 19546 - 166136)
+   cv_type = 'DISTANCE',
+   cv_i = 19546, 166136,
+   anchor_postion = 0, 1, 2, 3,
+   anchor_strength = 0, 0
+/
+
+&colvar !Monitoring for: D_1366 (atoms 22493 - 166136)
+   cv_type = 'DISTANCE',
+   cv_i = 22493, 166136,
+   anchor_postion = 0, 1, 2, 3,
+   anchor_strength = 0, 0
+/
+
+&colvar !Monitoring for: D_2377 (atoms 39396 - 166136)
+   cv_type = 'DISTANCE',
+   cv_i = 39396, 166136,
+   anchor_postion = 0, 1, 2, 3,
+   anchor_strength = 0, 0
+/
+
+&colvar !Monitoring for: D_3796 (atoms 62839 - 166136)
+   cv_type = 'DISTANCE',
+   cv_i = 62839, 166136,
+   anchor_postion = 0, 1, 2, 3,
+   anchor_strength = 0, 0
+/
+
