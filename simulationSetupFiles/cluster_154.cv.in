@@ -141,7 +141,6 @@ cv_file cell 154 collective variable restraints
 
 &colvar !Monitoring for: D_958 (atoms 15942 - 166095)
    cv_type = 'DISTANCE',
-   cv_ni = 2,
    cv_i = 15942, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
@@ -149,7 +148,6 @@ cv_file cell 154 collective variable restraints
 
 &colvar !Monitoring for: D_1178 (atoms 19546 - 166095)
    cv_type = 'DISTANCE',
-   cv_ni = 2,
    cv_i = 19546, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
@@ -157,7 +155,6 @@ cv_file cell 154 collective variable restraints
 
 &colvar !Monitoring for: D_1366 (atoms 22493 - 166095)
    cv_type = 'DISTANCE',
-   cv_ni = 2,
    cv_i = 22493, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
@@ -165,7 +162,6 @@ cv_file cell 154 collective variable restraints
 
 &colvar !Monitoring for: D_2377 (atoms 39396 - 166095)
    cv_type = 'DISTANCE',
-   cv_ni = 2,
    cv_i = 39396, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
@@ -173,7 +169,6 @@ cv_file cell 154 collective variable restraints
 
 &colvar !Monitoring for: D_3796 (atoms 62839 - 166095)
    cv_type = 'DISTANCE',
-   cv_ni = 2,
    cv_i = 62839, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
