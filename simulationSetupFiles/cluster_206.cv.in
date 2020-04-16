@@ -1,6 +1,8 @@
 cv_file cell 206 collective variable restraints
 &colvar !Cluster Pair: 206 - 37
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = -1.858341, -3.183607, 1.296596, 0.148921, 0.223592,
    anchor_position = -215.643490, -210.643490, 999999, 999999,
@@ -9,6 +11,8 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Cluster Pair: 206 - 166
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = 1.451340, -0.933825, 0.092248, 3.195793, -4.645479,
    anchor_position = -133.814589, -128.814589, 999999, 999999,
@@ -17,6 +21,8 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Cluster Pair: 206 - 76
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = 1.614728, -7.809351, 2.506655, 0.893247, -4.635229,
    anchor_position = -707.492058, -702.492058, 999999, 999999,
@@ -25,6 +31,8 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Cluster Pair: 206 - 13
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = 1.337843, 1.037073, -0.471735, -1.286360, 0.635822,
    anchor_position = 35.411363, 40.411363, 999999, 999999,
@@ -33,6 +41,8 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Cluster Pair: 206 - 81
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = -4.398137, -0.873206, 0.839373, -2.811176, 5.890964,
    anchor_position = -44.124119, -39.124119, 999999, 999999,
@@ -41,6 +51,8 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Cluster Pair: 206 - 212
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = -3.786089, 3.598499, -0.946920, 4.596710, -0.672305,
    anchor_position = 301.233947, 306.233947, 999999, 999999,
@@ -49,6 +61,8 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Cluster Pair: 206 - 55
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = 0.351728, -5.261209, 1.876859, -4.041456, 2.157472,
    anchor_position = -461.607507, -456.607507, 999999, 999999,
@@ -57,6 +71,8 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Cluster Pair: 206 - 87
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = -1.285291, 4.290258, -1.351278, 0.225633, 2.117026,
    anchor_position = 313.786134, 318.786134, 999999, 999999,
@@ -65,6 +81,8 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Cluster Pair: 206 - 57
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = -0.408427, 0.459708, -0.045189, -2.976670, 3.485057,
    anchor_position = 10.663502, 15.663502, 999999, 999999,
@@ -73,6 +91,8 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Cluster Pair: 206 - 159
    cv_type = 'LCOD'
+   cv_ni = 10,
+   cv_nr = 5,
    cv_i = 15942, 165711, 19546, 165711, 22493, 165711, 39396, 165711, 62839, 165711,
    cv_r = -2.702954, -2.895956, 1.213280, 3.308806, -2.264569,
    anchor_position = -188.132153, -183.132153, 999999, 999999,
@@ -81,6 +101,7 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Monitoring for: D_958 (atoms 15942 - 165711)
    cv_type = 'DISTANCE',
+   cv_ni = 2,
    cv_i = 15942, 165711,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
@@ -88,6 +109,7 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Monitoring for: D_1178 (atoms 19546 - 165711)
    cv_type = 'DISTANCE',
+   cv_ni = 2,
    cv_i = 19546, 165711,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
@@ -95,6 +117,7 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Monitoring for: D_1366 (atoms 22493 - 165711)
    cv_type = 'DISTANCE',
+   cv_ni = 2,
    cv_i = 22493, 165711,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
@@ -102,6 +125,7 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Monitoring for: D_2377 (atoms 39396 - 165711)
    cv_type = 'DISTANCE',
+   cv_ni = 2,
    cv_i = 39396, 165711,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
@@ -109,6 +133,7 @@ cv_file cell 206 collective variable restraints
 
 &colvar !Monitoring for: D_3796 (atoms 62839 - 165711)
    cv_type = 'DISTANCE',
+   cv_ni = 2,
    cv_i = 62839, 165711,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
