@@ -1,6 +1,6 @@
 cv_file cell 180 collective variable restraints
-&colvar !Cluster Pair: 180 - 4
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 4
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -9,8 +9,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 37
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 37
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -19,8 +19,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 14
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 14
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -29,8 +29,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 47
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 47
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -39,8 +39,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 212
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 212
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -49,8 +49,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 151
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 151
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -59,8 +59,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 152
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 152
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -69,8 +69,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 217
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 217
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -79,8 +79,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 28
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 28
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -89,8 +89,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 253
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 253
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -99,8 +99,8 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Cluster Pair: 180 - 191
-   cv_type = 'LCOD'
+&colvar
+   cv_type = 'LCOD' !Cluster Pair: 180 - 191
    cv_ni = 10,
    cv_nr = 5,
    cv_i = 15942, 166095, 19546, 166095, 22493, 166095, 39396, 166095, 62839, 166095,
@@ -109,36 +109,36 @@ cv_file cell 180 collective variable restraints
    anchor_strength = 0.0, 100.0
 /
 
-&colvar !Monitoring for: D_958 (atoms 15942 - 166095)
-   cv_type = 'DISTANCE',
+&colvar
+   cv_type = 'DISTANCE', !Monitoring for: D_958 (atoms 15942 - 166095)
    cv_i = 15942, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
 /
 
-&colvar !Monitoring for: D_1178 (atoms 19546 - 166095)
-   cv_type = 'DISTANCE',
+&colvar
+   cv_type = 'DISTANCE', !Monitoring for: D_1178 (atoms 19546 - 166095)
    cv_i = 19546, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
 /
 
-&colvar !Monitoring for: D_1366 (atoms 22493 - 166095)
-   cv_type = 'DISTANCE',
+&colvar
+   cv_type = 'DISTANCE', !Monitoring for: D_1366 (atoms 22493 - 166095)
    cv_i = 22493, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
 /
 
-&colvar !Monitoring for: D_2377 (atoms 39396 - 166095)
-   cv_type = 'DISTANCE',
+&colvar
+   cv_type = 'DISTANCE', !Monitoring for: D_2377 (atoms 39396 - 166095)
    cv_i = 39396, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
 /
 
-&colvar !Monitoring for: D_3796 (atoms 62839 - 166095)
-   cv_type = 'DISTANCE',
+&colvar
+   cv_type = 'DISTANCE', !Monitoring for: D_3796 (atoms 62839 - 166095)
    cv_i = 62839, 166095,
    anchor_postion = 0, 1, 2, 3,
    anchor_strength = 0, 0
